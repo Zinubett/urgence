@@ -1,0 +1,80 @@
+<!--
+	Author: W3layouts
+	Author URL: http://w3layouts.com
+	License: Creative Commons Attribution 3.0 Unported
+	License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Meta tags -->
+	<title>Syteme de tri d'urgence</title>
+	<meta name="keywords" content="Appoint My Doctor Form Responsive widget, Flat Web Templates, Android Compatible web template, 
+	Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- stylesheets -->
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/style.css">
+	<!-- google fonts  -->
+	<link href="//fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i,700" rel="stylesheet">
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+</head>
+<body>
+	<div class="w3ls-banner">
+	<div class="heading">
+		<h1>Syteme de tri d'urgence</h1>
+	</div>
+		<section id="tabs" class="project-tab">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                       
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                                <table class="table" cellspacing="80">
+                                    <thead>
+                                        <tr padding-right:200px>
+                                            <th><h2>Num</h2></th>
+                                            <th><h2>Nom</h2></th>
+                                            <th><h2>Prenom</h2></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                 
+   <?php foreach ($patient as $me)  :     ?>
+          <tr data-expanded="true">
+            
+            <td><?php echo  $me['id_patient'] ;  ?></td>
+            <td><?php echo  $me['nom'] ;  ?></td>
+            <td><?php echo  $me['prenom'] ;  ?></td>
+            
+           
+           
+            
+            
+            
+           
+                                        </tr>
+                                         <?php  endforeach ;    ?>
+                                        
+                                    </tbody>
+                                </table>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+		<div class="copyright">
+			<p>Zainab Abdelkader</p> 
+		</div>
+	</div>
+</body>
+</html>
